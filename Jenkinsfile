@@ -6,7 +6,7 @@ pipeline {
     stages{
         stage('Build Maven'){
             steps{
-                git 'https://github.com/KaustubhChavan09/devops-cicd-project-2.git'
+                git 'https://github.com/KaustubhChavan09/Terraform-cicd-project2.git'
                 sh 'mvn clean install'
             }
         }
